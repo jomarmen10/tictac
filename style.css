@@ -1,0 +1,9 @@
+#main {
+    background: green;
+    height: 100%;
+    width: 100%;
+}
+
+.child {
+    background: red;
+}
