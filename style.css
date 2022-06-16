@@ -8,7 +8,7 @@ h1 {
   padding-top: 100px;
 }
 
-.grid {
+#grid {
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(3, 1fr);
