@@ -1,9 +1,26 @@
-#main {
-    background: green;
-    height: 100%;
-    width: 100%;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-.child {
-    background: red;
+h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+
+  position: absolute;
+  left: 40.1%;
+  top: 30%;
+}
+
+.cell {
+  padding: 10px;
+  background-color: #ccc;
+  height: 100px;
+  width: 100px;
 }
